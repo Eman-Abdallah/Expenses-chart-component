@@ -11,7 +11,7 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("/data.json", function(text) {
+readTextFile("./data.json", function(text) {
     var data = JSON.parse(text);
     console.log(data[0]);
     document.querySelector('.monday').innerHTML = data[0].day;
