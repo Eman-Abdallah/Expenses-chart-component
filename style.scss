@@ -1,0 +1,272 @@
+    $Soft-red: hsl(10, 79%, 65%);
+    $Cyan: hsl(186, 34%, 60%);
+    $Dark-brown: hsl(25, 47%, 15%);
+    $Medium-brown: hsl(28, 10%, 53%);
+    $Cream: hsl(27, 66%, 92%);
+    $Very-pale-orange: hsl(33, 100%, 98%);
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    body {
+        background-color: $Cream;
+    }
+    
+    header {
+        margin: 100px auto 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 500px;
+        background-color: $Soft-red;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        p {
+            font-size: 14px;
+            color: $Cream;
+        }
+        img {
+            max-width: 60px;
+        }
+    }
+    
+    main {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        background-color: $Very-pale-orange;
+        padding: 25px;
+        border-radius: 10px;
+        h2 {
+            font-size: 25px;
+            color: $Dark-brown;
+            padding: 10px 5px;
+        }
+        .d-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-top: 40px;
+            .coast1,
+            .coast2,
+            .coast3,
+            .coast4,
+            .coast5,
+            .coast6,
+            .coast7 {
+                background-color: $Dark-brown;
+                color: $Very-pale-orange;
+                padding: 2px;
+                border-radius: 5px;
+                margin: 10px;
+                display: none;
+                font-size: 12px;
+            }
+            p {
+                color: $Medium-brown;
+                font-size: 14px;
+                padding: 10px;
+            }
+            .mon {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast1 {
+                    display: block;
+                }
+                .monBox {
+                    width: 50px;
+                    height: 50px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    transition: all .5s ease;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+            .tue {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast2 {
+                    display: block;
+                }
+                .tueBox {
+                    width: 50px;
+                    height: 100px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+            .wed {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast3 {
+                    display: block;
+                }
+                .wedBox {
+                    width: 50px;
+                    height: 150px;
+                    background-color: $Cyan;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Cyan, .8);
+                    }
+                }
+            }
+            .thu {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast4 {
+                    display: block;
+                }
+                .thuBox {
+                    width: 50px;
+                    height: 100px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+            .fri {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast5 {
+                    display: block;
+                }
+                .friBox {
+                    width: 50px;
+                    height: 80px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+            .sat {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast6 {
+                    display: block;
+                }
+                .satBox {
+                    width: 50px;
+                    height: 120px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+            .sun {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s ease;
+                &:hover .coast7 {
+                    display: block;
+                }
+                .sunBox {
+                    width: 50px;
+                    height: 90px;
+                    background-color: $Soft-red;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all .5s ease;
+                    &:hover {
+                        background-color: rgba($Soft-red, .8);
+                    }
+                }
+            }
+        }
+        .hr {
+            margin: 10px auto;
+            width: 100%;
+            background-color: $Medium-brown;
+            height: 1px;
+        }
+        p {
+            color: $Medium-brown;
+            font-size: 16px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            p {
+                color: $Medium-brown;
+                font-size: 14px;
+                padding: 5px 0;
+            }
+            h3 {
+                font-size: 40px;
+                color: $Dark-brown;
+            }
+            .first {
+                font-weight: 700;
+                color: $Dark-brown;
+                text-align: end;
+            }
+        }
+    }
+    
+    @media (max-width: 400px) {
+        header {
+            max-width: 350px;
+        }
+        main {
+            max-width: 350px;
+            padding: 10px;
+            .d-flex .sun .sunBox,
+            .d-flex .mon .monBox,
+            .d-flex .sat .satBox,
+            .d-flex .fri .friBox,
+            .d-flex .thu .thuBox,
+            .d-flex .wed .wedBox,
+            .d-flex .tue .tueBox {
+                width: 40px;
+            }
+        }
+    }

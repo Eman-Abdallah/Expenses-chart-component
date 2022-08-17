@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif; }
+
+body {
+  background-color: #f8e9dd; }
+
+header {
+  margin: 100px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  background-color: #ec775f;
+  padding: 20px;
+  border-radius: 10px;
+  color: white; }
+  header p {
+    font-size: 14px;
+    color: #f8e9dd; }
+  header img {
+    max-width: 60px; }
+
+main {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: #fffaf5;
+  padding: 25px;
+  border-radius: 10px; }
+  main h2 {
+    font-size: 25px;
+    color: #382314;
+    padding: 10px 5px; }
+  main .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 40px; }
+    main .d-flex .coast1,
+    main .d-flex .coast2,
+    main .d-flex .coast3,
+    main .d-flex .coast4,
+    main .d-flex .coast5,
+    main .d-flex .coast6,
+    main .d-flex .coast7 {
+      background-color: #382314;
+      color: #fffaf5;
+      padding: 2px;
+      border-radius: 5px;
+      margin: 10px;
+      display: none;
+      font-size: 12px; }
+    main .d-flex p {
+      color: #93867b;
+      font-size: 14px;
+      padding: 10px; }
+    main .d-flex .mon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .mon:hover .coast1 {
+        display: block; }
+      main .d-flex .mon .monBox {
+        width: 50px;
+        height: 50px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        transition: all .5s ease;
+        cursor: pointer; }
+        main .d-flex .mon .monBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+    main .d-flex .tue {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .tue:hover .coast2 {
+        display: block; }
+      main .d-flex .tue .tueBox {
+        width: 50px;
+        height: 100px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .tue .tueBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+    main .d-flex .wed {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .wed:hover .coast3 {
+        display: block; }
+      main .d-flex .wed .wedBox {
+        width: 50px;
+        height: 150px;
+        background-color: #76b5bc;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .wed .wedBox:hover {
+          background-color: rgba(118, 181, 188, 0.8); }
+    main .d-flex .thu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .thu:hover .coast4 {
+        display: block; }
+      main .d-flex .thu .thuBox {
+        width: 50px;
+        height: 100px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .thu .thuBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+    main .d-flex .fri {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .fri:hover .coast5 {
+        display: block; }
+      main .d-flex .fri .friBox {
+        width: 50px;
+        height: 80px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .fri .friBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+    main .d-flex .sat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .sat:hover .coast6 {
+        display: block; }
+      main .d-flex .sat .satBox {
+        width: 50px;
+        height: 120px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .sat .satBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+    main .d-flex .sun {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .5s ease; }
+      main .d-flex .sun:hover .coast7 {
+        display: block; }
+      main .d-flex .sun .sunBox {
+        width: 50px;
+        height: 90px;
+        background-color: #ec775f;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all .5s ease; }
+        main .d-flex .sun .sunBox:hover {
+          background-color: rgba(236, 119, 95, 0.8); }
+  main .hr {
+    margin: 10px auto;
+    width: 100%;
+    background-color: #93867b;
+    height: 1px; }
+  main p {
+    color: #93867b;
+    font-size: 16px; }
+  main .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; }
+    main .footer p {
+      color: #93867b;
+      font-size: 14px;
+      padding: 5px 0; }
+    main .footer h3 {
+      font-size: 40px;
+      color: #382314; }
+    main .footer .first {
+      font-weight: 700;
+      color: #382314;
+      text-align: end; }
+
+@media (max-width: 400px) {
+  header {
+    max-width: 350px; }
+
+  main {
+    max-width: 350px;
+    padding: 10px; }
+    main .d-flex .sun .sunBox,
+    main .d-flex .mon .monBox,
+    main .d-flex .sat .satBox,
+    main .d-flex .fri .friBox,
+    main .d-flex .thu .thuBox,
+    main .d-flex .wed .wedBox,
+    main .d-flex .tue .tueBox {
+      width: 40px; } }
+
+/*# sourceMappingURL=style.css.map */
